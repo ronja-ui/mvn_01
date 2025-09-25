@@ -73,7 +73,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          repository: teragrep/mvn_01
+          repository: ronja-ui/mvn_01
           ref: main
           sparse-checkout: |
             gh-pages-aux/src/
